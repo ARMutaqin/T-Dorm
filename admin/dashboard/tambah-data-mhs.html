@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+  <title>T-Dorm | Telkom University Dormitory</title>
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
+
+
+	<link rel="stylesheet" type="text/css" href="../../css/style-dashboard.css">
+	<link rel="shortcut icon" href="../../img/fav.png">
+  
+</head>
+<body>
+
+
+<!-- HEADER DAN NAVBAR -->
+    <nav>
+      <ul>
+        <a class="teks" href="index.html"  data-0="line-height:90px;" data-300="line-height:50px;">T-Dorm</a>
+        
+
+              <!-- PROFILE -->
+        <li class="profile">
+           <a href="#" style="color: #d2d6dd;"><p style="font-size: 18px; text-align: center">Aditya</p></a>
+
+            <ul>
+              <li><a href="#">Profile</a></li>
+              <li><a href="#">Settings</a></li>
+              <li><a href="#">Log Out</a></li>
+            </ul>
+
+        </li>
+
+
+              <!-- END OF PROFILE -->
+
+        <li style="margin-right: 20px;"><a href="#">Hubungi Kami</a></li>
+        <li><a href="#">Bantuan</a></li>
+      </ul>
+    </nav>
+<!-- END OF NAV BAR -->
+
+  <!-- KONTEN -->
+    <!-- SIDEBAR -->
+
+  <div class="sidebar">
+    <h3 style="text-align: center; margin: 20px 0 20px 0;">Admin Dashboard</h3>
+
+    <ul>
+      <li><a href="#">Riwayat<i class="material-icons" style="float: right;">expand_more</i></a>
+          <ul>
+            <li><a href="#">Cek In/Out kamar</a></li>
+            <li><a href="#">Kunci Jemuran</a></li>
+            <li><a href="#">Tamu</a></li>
+          </ul>
+      </li>
+
+      <li><a href="#">Mahasiswa<i class="material-icons" style="float: right;">expand_more</i></a>
+          <ul>
+            <li><a href="#">Tambah data</a></li>
+          </ul>
+      </li>
+
+      <li><a href="#">Cetak</a></li>
+      <li><a href="#">JSON Data</a></li>
+      <li><a href="#">Tentang</a></li>
+    </ul>
+  </div>
+    <!-- END OF SIDEBAR -->
+
+    <!-- KONTEN UTAMA -->
+  <div style="margin-left: 25%; margin-top: 50px;">
+  <h2>Tambah data Mahasiswa</h2>
+
+
+    <form class="pure-form pure-form-aligned" style="margin-top: 50px;">
+    <fieldset style="padding-top: 0;">
+        <div class="pure-control-group">
+            <label for="name">Nama lengkap</label>
+            <input class="pure-input-1-3" id="name" type="text" placeholder="Masukan nama lengkap">
+        </div>
+        <div class="pure-control-group">
+            <label for="ttl">Tempat, tanggal lahir</label>
+            <input class="pure-input-1-3" id="ttl" type="text" placeholder="Masukan tempat, tanggal lahir">
+        </div>
+        <div class="pure-control-group">
+            <label for="agama">Agama</label>
+            <input class="pure-input-1-3" id="agama" type="text" placeholder="Masukan agama">
+        </div>
+        <div class="pure-control-group">
+            <label for="nim">NIM</label>
+            <input class="pure-input-1-3" id="nim" type="text" placeholder="Masukan NIM">
+        </div>
+        <div class="pure-control-group">
+            <label for="jurusan">Jurusan</label>
+            <input class="pure-input-1-3" id="jurusan" type="text" placeholder="Masukan jurusan">
+        </div>
+        <div class="pure-control-group">
+            <label for="nohp">No. Hp</label>
+            <input class="pure-input-1-3" id="nohp" type="text" placeholder="Masukan No. Handphone">
+        </div>
+        <div class="pure-control-group">
+            <label for="email">E-mail</label>
+            <input class="pure-input-1-3" id="email" type="email" placeholder="Masukan E-mail">
+        </div>
+        <div class="pure-control-group">
+                <label for="jenis-kelamin">Jenis kelamin</label>
+                <select id="jenis-kelamin" class="pure-input-1-2">
+                    <option>Laki-laki</option>
+                    <option>Perempuan</option>
+                </select>
+            </div>
+        <div class="pure-control-group">
+            <label for="jenis-kelamin">Golongan darah</label>
+            <input id="option-one" type="radio" name="golonganDarah" value="A">A
+            <input id="option-two" type="radio" name="golonganDarah" value="B">B
+            <input id="option-three" type="radio" name="golonganDarah" value="AB">AB
+            <input id="option-" type="radio" name="golonganDarah" value="O">O
+        </div>
+        <div class="pure-control-group">
+            <label for="alamat-asal">Alamat asal</label>
+            <textarea class="pure-input-1-2" id="alamat-asal" placeholder="Masukan alamat asal"></textarea>
+        </div>
+        <div class="pure-controls">
+            <button type="submit" name="submitTambahMahasiswa" class="pure-button" style="background-color: #0AC986; color: #fff;">Tambah data</button>
+        </div>
+    </fieldset>
+    </form>
+  </div>
+
+
+
+
+
+
+  <!-- 	FOOTER -->
+	<!-- <footer>
+  <br/>
+		<p>&copy Copyright 2017 T-Dorm</p>
+	</footer>	 -->
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+
+nav {
+	width: 100%;
+ 	background:#b01116;
+
+ }
+
+nav ul a{
+	display: table-cell;
+	vertical-align: middle;
+ 	text-decoration: none;
+ 	color: #fff;
+}
+
+nav ul a.logo {
+	display: table-cell;
+	vertical-align: middle;
+	margin-top: 20px;
+ 	text-decoration: none;
+ 	color: #fff;
+}
+
+nav ul a.logo img {
+	vertical-align: middle;
+	float: left;
+	margin: 10px 0 10px 0;
+}
+
+.clear{
+	float: none;
+}
+ nav ul {
+ 	padding: 0 20px;
+ 	list-style: none;
+ 	position: relative;
+ 	display: inline-table;
+ 	width: 100%;
+ }
+ nav ul li{
+ 	float:right;
+ 	margin-right: 30px;
+ }
+
+ nav ul li:hover a{
+ 	color:#ed1c24;
+ }
+
+ nav ul li a{
+ 	display: block;
+ 	padding: 25px;
+ 	color: #fff;
+ 	text-decoration: none;
+ }
