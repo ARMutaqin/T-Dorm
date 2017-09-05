@@ -1,2 +1,2 @@
 # T-Dorm
-Website pengelolaan cek in dan cek out mahasiswa Telkom Universty
+Website pengelolaan cek in dan cek out asrama Telkom Universty
